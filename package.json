@@ -1,0 +1,49 @@
+{
+  "name": "vuetify-with",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --local --port 4040",
+    "build": "vue-cli-service build",
+    "build-deploy": "vue-cli-service build --mode deploy",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chart.js": "^3.7.1",
+    "core-js": "^3.8.3",
+    "css-loader": "^6.7.1",
+    "eslint-plugin-vuetify": "^1.1.0",
+    "secure-ls": "^1.2.6",
+    "socket.io-client": "^2.3.0",
+    "url-search-params-polyfill": "^8.1.1",
+    "vue": "^2.6.14",
+    "vue-chartjs": "^4.0.7",
+    "vue-cookies": "^1.8.1",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-router": "^3.5.1",
+    "vue-socket.io": "^3.0.10",
+    "vue-style-loader": "^4.1.3",
+    "vuetify": "^2.6.0",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.6.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.8",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
+  }
+}
